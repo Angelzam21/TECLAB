@@ -13,7 +13,8 @@ header {
     top: 0;
     z-index: 100;
     transition: 0.4s ease; 
-    background: #ffffff;
+    background: #e4e4e4;
+
 }
 nav {
     height: 80px; 
@@ -68,17 +69,22 @@ header.scrolled .nav_item,
 header.scrolled .nav_label{
     color: #f0f9ff;
 }
-/*---------------------------CAROUSEL---------------------------*/
-.carousel-caption h5 { 
-  font-size: 25px; 
-}
-.carousel-inner img {
-  filter:grayscale(20%) ;
-  max-height: 650PX;
-  margin-top: 0px
-}
 /*---------------------------CONTENT---------------------------*/
-
+h1 {
+    color: #56070c;
+    text-align: center;
+}
+.service_section {
+    padding: 1em 5%;
+}
+.service_section ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: justify;
+}
+.service_section p {
+    text-align: justify;
+}
 /*---------------------------FOOTER---------------------------*/
 .footer {
     padding:50px 0;

@@ -13,7 +13,7 @@ header {
     top: 0;
     z-index: 100;
     transition: 0.4s ease; 
-    background: #ffffff;
+    background: #e4e4e4;
 }
 nav {
     height: 80px; 
@@ -94,7 +94,7 @@ header.scrolled .nav_label{
 }
 .main_container {
     display: grid;
-    padding: 0 3em;
+    padding: 0 5%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto auto;
     gap: 3em;

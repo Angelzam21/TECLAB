@@ -16,17 +16,17 @@
     <header id="header_sticky">
         <nav>
           <div class="nav_container">
-                <img src="Images/LOGOS/hsd-icon.svg" class="logo">
+                <a href="index.html"><img src="Images/LOGOS/hsd-icon.svg" class="logo"></a>
                 <label for="menu" class="nav_label">
                     &#8801    <!--menu hamburguesa-->
                 </label>
-                <input type="checkbox" id="menu" class="nav_input">
+                <input type="checkbox" id="menu" class="nav_input" checked>
                 <div class="nav_menu">
-                  <a href="index.html" class="nav_item">Inicio</a>
-                  <a href="HTML/habitaciones.html" class="nav_item">Habitaciones</a>
-                  <a href="HTML/contacto.html" class="nav_item">Contacto</a>
-                  <a href="HTML/servicios.html" class="nav_item">Servicios</a>
-                  <a href="HTML/reservas.html" class="nav_item" id="button_reservas">Reservas</a>
+                  <a href="index.html" class="nav_item" onclick="marcarCheckbox()">Inicio</a>
+                  <a href="HTML/habitaciones.html" class="nav_item" onclick="marcarCheckbox()">Habitaciones</a>
+                  <a href="HTML/contacto.html" class="nav_item" onclick="marcarCheckbox()">Contacto</a>
+                  <a href="HTML/servicios.html" class="nav_item" onclick="marcarCheckbox()">Servicios</a>
+                  <a href="HTML/reservas.html" class="nav_item" id="button_reservas" onclick="marcarCheckbox()">Reservas</a>
                 </div>
           </div>
         </nav>
