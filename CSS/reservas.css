@@ -117,7 +117,18 @@ h1 {
 .button_container button {
     width: 10%;
 }
-
+.error {
+    color:red;
+}
+.invalid {
+    border:solid 1px red;
+}
+.error-format {
+    color:red;
+}
+.invalid-format {
+    border:solid 1px red;
+}
 /*---------------------------FOOTER---------------------------*/
 .footer {
     padding:50px 0;

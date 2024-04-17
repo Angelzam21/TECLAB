@@ -23,5 +23,6 @@ function enviar() {
                     `Teléfono: ${telefonoValue}%0A` +
                     `Correo Electrónico: ${emailValue}`;
 
-    window.location.href = `https://api.whatsapp.com/send?phone=584120332888&text=${mensaje}`;
+    window.open(`https://api.whatsapp.com/send?phone=584120332888&text=${mensaje}`, '_blank');
 }
+

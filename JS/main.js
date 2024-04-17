@@ -9,6 +9,6 @@ function scrollFunction() {
   }
 }
 
-function marcarCheckbox() {
-  document.getElementById('menu').checked = true;
-}
+// function marcarCheckbox() {
+//   document.getElementById('menu').checked = true;
+// }
